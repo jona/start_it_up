@@ -1,0 +1,30 @@
+@import 'mixins';
+
+// header
+.site-header{background:#fff; height:56px; min-width:1040px; @include single-box-shadow(rgba(0,0,0,.1), 0, 1px, 3px); position:relative; margin-bottom:25px;}
+.site-header > h1{float:left; margin:10px; font-size:30px; font-weight:normal;}
+.site-header > h1 em{font-style:normal; font-weight:200;}
+
+// logo
+.logo-holder{float:left; padding:10px 10px 0 15px; height:56px;}
+.logo:hover{text-decoration: none;}
+.logo img{height:21px;}
+.logo div{@include font-size14; color:#666; margin:-3px 0 0 25px;}
+
+// quicklinks
+.back-link{border: 1px solid #4491BD; border-radius: 3px; padding: 3px 15px; margin:16px 10px 0 5px; font-size: 14px; float:left;}
+.current-project{float: right; color: #AAA; margin:19px 20px 19px 0; @include font-size14;}
+.quick-link{margin:19px 10px; float: left;}
+
+// nav
+#site-nav li > a{color:#fff; @include font-size18; font-weight:300;}
+#site-nav li a i{position: absolute; left: 15px; margin-top: 2px;}
+
+// account
+#account{color:#fff; @include font-size14; padding:15px 30px;}
+#account i{margin-right:5px;}
+
+// admin nav
+#admin-nav{padding:10px 0; background:url(../../assets/transparent_black_80.png) repeat; overflow:hidden; position:fixed; bottom:0; width:100%; z-index:1;}
+#admin-nav ul > li{float:left; margin:0 20px;}
+#admin-nav label{display:inline; margin-right:10px; color:#fff;}
