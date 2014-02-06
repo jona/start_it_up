@@ -7,7 +7,8 @@ Copy the following files/directories to ```app/assets/stylesheets```:
 1. ```/bootstrap``` 
 2. ```/_mixins.css.scss``` 
 3. ```/main.css.scss```
-4. ```/reset.css```
+4. ```/header.css.scss``` 
+5. ```/reset.css```
 
 ##HTML
 
