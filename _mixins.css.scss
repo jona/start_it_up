@@ -1,0 +1,27 @@
+@import "compass/css3";
+
+$color-green-primary: #008A8D;
+$color-dark-blue-primary: #002f47;
+$color-blue-primary: #4491bd;
+
+$color-yellow-secondary: #f6d602;
+$color-orange-secondary: #f27606;
+$color-green-yellow-secondary: #cdd32a;
+$color-gray-secondary: #dce0e1;
+$color-brown-secondary: #d3ccbc;
+
+$bg-color: #EAF0F3;
+
+@mixin font-size72{font-size:4.5em;} //72
+@mixin font-size60{font-size:3.75em;} //60
+@mixin font-size48{font-size:3em;} //48
+@mixin font-size36{font-size:2.25em;} //36
+@mixin font-size30{font-size:1.875em;} //30
+@mixin font-size24{font-size:1.5em;} //24
+@mixin font-size21{font-size:1.3125em;} //21
+@mixin font-size18{font-size:1.125em;} //18
+@mixin font-size16{font-size:1em;} //16
+@mixin font-size14{font-size:.875em;} //14
+@mixin font-size12{font-size:.75em;} //12
+
+@mixin selection-disabled{-webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
