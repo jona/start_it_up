@@ -143,27 +143,27 @@ $btn-font-weight:                normal !default;
 
 $btn-default-color:              #333 !default;
 $btn-default-bg:                 #fff !default;
-$btn-default-border:             #ccc !default;
+$btn-default-border:             #333 !default;
 
-$btn-primary-color:              #fff !default;
-$btn-primary-bg:                 $brand-primary !default;
-$btn-primary-border:             darken($btn-primary-bg, 5%) !default;
+$btn-primary-color:              $brand-primary !default;
+$btn-primary-bg:                 #fff !default;
+$btn-primary-border:             $btn-primary-color !default;
 
-$btn-success-color:              #fff !default;
-$btn-success-bg:                 $brand-success !default;
-$btn-success-border:             darken($btn-success-bg, 5%) !default;
+$btn-success-color:              $brand-success !default;
+$btn-success-bg:                 #fff !default;
+$btn-success-border:             $btn-success-color !default;
 
-$btn-info-color:                 #fff !default;
-$btn-info-bg:                    $brand-info !default;
-$btn-info-border:                darken($btn-info-bg, 5%) !default;
+$btn-info-color:                 $brand-info !default;
+$btn-info-bg:                    #fff !default;
+$btn-info-border:                $btn-info-color !default;
 
-$btn-warning-color:              #fff !default;
-$btn-warning-bg:                 $brand-warning !default;
-$btn-warning-border:             darken($btn-warning-bg, 5%) !default;
+$btn-warning-color:              $brand-warning !default;
+$btn-warning-bg:                 #fff !default;
+$btn-warning-border:             $btn-warning-color !default;
 
-$btn-danger-color:               #fff !default;
-$btn-danger-bg:                  $brand-danger !default;
-$btn-danger-border:              darken($btn-danger-bg, 5%) !default;
+$btn-danger-color:               $brand-danger !default;
+$btn-danger-bg:                  #fff !default;
+$btn-danger-border:              $btn-danger-color !default;
 
 $btn-link-disabled-color:        $gray-light !default;
 
@@ -184,7 +184,7 @@ $input-border:                   #ccc !default;
 //** `<input>` border radius
 $input-border-radius:            $border-radius-base !default;
 //** Border color for inputs on focus
-$input-border-focus:             #66afe9 !default;
+$input-border-focus:             $brand-primary !default;
 
 //** Placeholder text color
 $input-color-placeholder:        $gray-light !default;
@@ -454,8 +454,8 @@ $state-success-text:             #008a8d !default;
 $state-success-bg:               #ecf8f8 !default;
 $state-success-border:           darken(adjust-hue($state-success-bg, -10), 5%) !default;
 
-$state-info-text:                #4491bd !default;
-$state-info-bg:                  #d1e4ee !default;
+$state-info-text:                #0F3038 !default;
+$state-info-bg:                  #dce0e1 !default;
 $state-info-border:              darken(adjust-hue($state-info-bg, -10), 7%) !default;
 
 $state-warning-text:             #8a6d3b !default;
@@ -499,7 +499,7 @@ $popover-border-color:                rgba(0,0,0,.2) !default;
 $popover-fallback-border-color:       #ccc !default;
 
 //** Popover title background color
-$popover-title-bg:                    darken($popover-bg, 3%) !default;
+$popover-title-bg:                    #002f47 !default;
 
 //** Popover arrow width
 $popover-arrow-width:                 10px !default;

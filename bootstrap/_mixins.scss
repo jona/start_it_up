@@ -503,19 +503,22 @@
   color: $color;
   background-color: $background;
   border-color: $border;
-
+  
   &:hover,
   &:focus,
   &:active,
   &.active {
-    color: $color;
-    background-color: darken($background, 8%);
-        border-color: darken($border, 12%);
+    color: $background;
+    background-color: $color;
+        border-color: $border;
+    i{
+      color: $background;
+    }
   }
   .open & { &.dropdown-toggle {
-    color: $color;
-    background-color: darken($background, 8%);
-        border-color: darken($border, 12%);
+    color: $background;
+    background-color: $color;
+        border-color: $border;
   } }
   &:active,
   &.active {
@@ -532,14 +535,21 @@
     &:focus,
     &:active,
     &.active {
+      color:$color;
       background-color: $background;
           border-color: $border;
+      i{
+        color: $color;
+      }
     }
   }
 
   .badge {
-    color: $background;
-    background-color: $color;
+    color: $color;
+    background-color: $background;
+  }
+  i{
+    color: $color;
   }
 }
 
